@@ -1,0 +1,5 @@
+build:
+  - name: Install dependencies
+    command: pip install -r requirements.txt
+  - name: Run database migrations
+    command: python manage.py migrate
